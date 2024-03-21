@@ -1,0 +1,100 @@
+@font-face{
+  font-family: Norde;
+  src: url(https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  background-color: rgb(175, 197, 169);
+  height: 100vh;
+}
+
+.sector-izq{
+  width: 40%;
+}
+
+.logo-container{
+  position: absolute;
+  top: calc(35%);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: calc(40%);
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-text{
+  font-family: Norde;
+  font-size: 80px;
+  color: white;
+}
+
+.sector-der{
+  width: 60%;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+.container-h2{
+  margin-bottom: 30px ;
+  padding: 20px;
+}
+
+form{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.301);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.151);
+  padding: 20px;
+}
+
+form>h2{
+  width: 100%;
+  margin-bottom: 20px;
+}
+form>div{
+  display: flex;
+  flex-direction: column;
+  width: calc(50%);
+}
+label{
+  margin-bottom: 5px;
+  color: rgb(82, 82, 82);
+}
+input{
+  width: 95%;
+  margin-bottom: 10px;
+}
+
+
+.footer{
+  margin-top: 30px;
+  padding: 20px;
+}
+
+button{
+    width: 25%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(19, 124, 8, 0.6);
+    color: white;
+    margin-bottom: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+

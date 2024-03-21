@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sing Up Form</title>
+  </head>
+  <body>
+    <div class="sector-izq">
+      <img
+        class="fondo"
+        src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        width="100%"
+        height="100%"
+      />
+      <div class="logo-container">
+        <img
+          class="logo"
+          src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+          width="80px"
+          height="80px"
+        />
+        <p class="logo-text">ODIN</p>
+      </div>
+    </div>
+    <div class="sector-der">
+      <div class="container-h2">
+        <h3>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+          obcaecati, deleniti ut libero amet asperiores suscipit ratione id eius
+          totam! Non ex dolorum exercitationem? Facere nesciunt esse minima
+          quisquam ratione?
+        </h3>
+        <br />
+        <p>You know you want to.</p>
+      </div>
+      <form action="" method="post">
+        <h2>Lets do this!</h2>
+        <div>
+          <label for="nombre">Nombre:</label>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            required
+            placeholder="John"
+          />
+        </div>
+        <div>
+          <label for="apellidos">Apellidos:</label>
+          <input
+            type="text"
+            name="apellidos"
+            id="apellidos"
+            required
+            placeholder="Doe"
+          />
+        </div>
+        <div>
+          <label for="correo">Correo:</label>
+          <input
+            type="email"
+            name="correo"
+            id="correo"
+            required
+            placeholder="john@correo.com"
+          />
+        </div>
+        <div>
+          <label for="telefono">Teléfono:</label>
+          <input
+            type="number"
+            name="telefono"
+            id="telefono"
+            required
+            placeholder="+598 1234 1234"
+          />
+        </div>
+        <div class="password">
+          <label for="password">Contraseña:</label>
+          <input
+            class="pwd"
+            type="password"
+            name="password"
+            id="password"
+            required
+          />
+        </div>
+        <div class="conf-password">
+          <label for="conf-password">Confirmar Contraseña:</label>
+          <input
+            class="pwd"
+            type="password"
+            name="conf-password"
+            id="conf-password"
+            required
+          />
+        </div>
+      </form>
+      <div class="footer">
+        <button class="create" type="submit">Create Account</button>
+        <p class="login">
+          Already have an account? <a href="http://">Log in</a>
+        </p>
+      </div>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
