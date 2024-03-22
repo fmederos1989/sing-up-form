@@ -14,7 +14,7 @@ createAcount.addEventListener('click', function () {
           password.value = '';
           confPassword.value = '';
           divPass.appendChild(aviso);
-          aviso.textContent = '* Las contraseñas no coiciden';
+          aviso.textContent = '* Las contraseñas no coinciden';
           aviso.style.color = 'red';
         } else {
       divPass.removeChild(aviso);
